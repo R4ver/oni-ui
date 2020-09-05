@@ -1,0 +1,21 @@
+{
+  "name": "oni-ui",
+  "version": "1.0.0",
+  "description": "UI Package for creating livestream overlays",
+  "main": "index.js",
+  "author": "R4ver",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "alias": {
+    "Components": "./src/components"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "preact": "^10.4.8"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4"
+  }
+}
